@@ -16,5 +16,5 @@ func main() {
 		fmt.Println("error:", err)
 	}
 
-	fmt.Println("response:", response.Body)
+	fmt.Println(response.Body)
 }

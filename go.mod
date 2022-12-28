@@ -4,4 +4,4 @@ go 1.19
 
 replace github.com/rpunt/dcc => ../dcc
 
-require github.com/rpunt/dcc v0.0.0-00010101000000-000000000000
+require github.com/rpunt/dcc v0.0.0-20221228022900-d6c5e4aa7ee8
