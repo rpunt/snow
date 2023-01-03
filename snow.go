@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/rpunt/dcc"
+	"github.com/rpunt/simplehttp"
 )
 
 
 func main() {
-	client := dcc.NewClient()
+	client := simplehttp.NewClient()
 	client.BaseURL = "https://icanhazdadjoke.com"
 	client.Headers["Accept"] = "application/json"
 	response, err := client.Get("/")
