@@ -8,7 +8,7 @@ import (
 
 
 func main() {
-	client := simplehttp.NewClient()
+	client := simplehttp.New()
 	client.BaseURL = "https://icanhazdadjoke.com"
 	client.Headers["Accept"] = "application/json"
 	response, err := client.Get("/")
